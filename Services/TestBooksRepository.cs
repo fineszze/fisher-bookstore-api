@@ -61,5 +61,10 @@ namespace Fisher.Bookstore.Services
         {
             return books.ContainsKey(bookId);
         }
+
+        public bool BookExists(object bookId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
